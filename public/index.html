@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>AI Oracle</title>
 </head>
 
 <body>
-    <header>
+    <header class="d-flex justify-content-center">
         <h1><span>AI</span> Oracle</h1>
     </header>
-    <div id="inner-container-setup">
+    <div class="d-flex justify-content-center" id="inner-container-setup">
         <section id="setup-container">
         <image height='300px' width='300px' src='./assets/tarot.jpeg'></image>
         <div id="speech-bubble-ai">
@@ -21,15 +22,13 @@
             <!-- <p>Ask me anything.</p> -->
         </div>
     </div>
-    <div>
-        <textarea id="setup-textarea" placeholder="What is next in my career?"></textarea>
-        <button id="send-btn">Submit</button>
+    <div class="d-flex flex-column justify-content-center">
+        <textarea class="align-self-center" id="setup-textarea" placeholder="What is next in my career?"></textarea>
+        <button class="btn btn-outline-success mt-2 align-self-center" id="send-btn">Submit</button>
     </div>
         </section>
-        <section id="bottom-container">
-            <div id="output-image-container"></div>
-            <h1 id="output-image"></h1>
-            <p id="output-text"></p>
+        <section class="d-flex flex-column justify-content-center mt-3 mx-2" id="bottom-container">
+            <p class="text-center" id="output-text"></p>
         </section>
         <script type="module" src="./scripts.js"></script> 
 </body>

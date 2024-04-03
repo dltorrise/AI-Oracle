@@ -1,7 +1,7 @@
 //so basically it will generate a random tarot card
 //then ChatGPT will interpret that tarot card
 
-const apiKey = 'YOUR-API-KEY'
+const apiKey = "YOUR-API-KEY"
 
 const url = 'https://api.openai.com/v1/chat/completions'
 
