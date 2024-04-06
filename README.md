@@ -17,13 +17,17 @@ node server.js
 
 The server should be running on [localhost:3001](http://localhost:3001/)
 
-## Screenshot
+## Screenshot & Demo Video
 
 The following is a screenshot of my application:
 
 ![This is a photo of two hands and tarot cards flying in the air magically from the two hands](./public/assets/aioraclescreenshot.png)
 
 This image was generated with the BING Image Generator. 
+
+![Demo Video here](https://www.youtube.com/watch?v=IgsJhwL3we4)
+
+
 
 ## Credits
 
