@@ -25,7 +25,7 @@ The following is a screenshot of my application:
 
 This image was generated with the BING Image Generator. 
 
-![Demo Video here](https://www.youtube.com/watch?v=IgsJhwL3we4)
+[![Demo Video here](https://www.youtube.com/watch?v=IgsJhwL3we4)]
 
 
 
